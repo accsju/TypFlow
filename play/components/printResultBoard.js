@@ -1,5 +1,5 @@
-import database from "/utility/indexedDB/database.js";
-import { DB_CONFIG } from "/utility/indexedDB/dbConfig.js";
+import database from "/TypFlow/utility/indexedDB/database.js";
+import { DB_CONFIG } from "/TypFlow/utility/indexedDB/dbConfig.js";
 
 class PrintResultBoard extends HTMLElement {
     isOpen = false;

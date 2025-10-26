@@ -39,7 +39,7 @@ class TypingManager {
         
         try {
             module = await import(
-                `/play/field/${group}/${fileName}.js`
+                `/TypFlow/play/field/${group}/${fileName}.js`
             );
             return module.default;
         } catch (err) {

@@ -109,22 +109,22 @@ class GlobalHeader extends HTMLElement {
                 <div class="navigation" id="navigation">
                     <div class="game-menu">
                         <div id="play" data-focus="false">
-                            <a href="/play/index.html">遊ぶ</a>
+                            <a href="/TypFlow/play/index.html">遊ぶ</a>
                         </div>
                         <div id="setting" data-focus="false">
-                            <a href="/setting/index.html">設定</a>
+                            <a href="/TypFlow/setting/index.html">設定</a>
                         </div>
                         <div id="record" data-focus="false">
-                            <a href="/record/index.html">記録</a>
+                            <a href="/TypFlow/record/index.html">記録</a>
                         </div>
                         <div id="news" data-focus="false">
-                            <a href="/news/index.html">お知らせ</a>
+                            <a href="/TypFlow/news/index.html">お知らせ</a>
                         </div>
                     </div>
                 </div>
                 <div class="smart-menu">
                     <button type="button" id="menu">
-                        <img src="/public/images/icons/menu.svg" alt="メニュー" />
+                        <img src="/TypFlow/public/images/icons/menu.svg" alt="メニュー" />
                     </button>
                 </div>    
             </header>

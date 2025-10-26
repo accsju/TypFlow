@@ -30,7 +30,7 @@ class SiteLogo extends HTMLElement {
             </style>
             <div>
                 <h1 class="logo">
-                    <a href="/index.html" target="_self">TypFlow</a>
+                    <a href="/TypFlow/index.html" target="_self">TypFlow</a>
                 </h1>
             </div>
         `;

@@ -1,5 +1,5 @@
-import TypingManager from "/play/engine/typingManager.js";
-import TimeManager from "/play/engine/timeManager.js";
+import TypingManager from "/TypFlow/play/engine/typingManager.js";
+import TimeManager from "/TypFlow/play/engine/timeManager.js";
 
 class TypingBoard extends HTMLElement {
     typingManager = null;
