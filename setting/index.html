@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja-JP">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="author" content="typflow.dev">
+    <meta name="description" ontent="TypingGameなどの設定の変更ができます。">
+    <title>TypFlow 設定</title>
+    
+    <!-- sns -->
+    <!-- og ommission -->
+    
+    <!-- common css -->    
+    <link rel="stylesheet" href="/style.css">
+
+    <!-- original css -->
+    <link rel="stylesheet" href="/setting/style2.css">
+</head>
+<body>
+    <global-header></global-header>
+    <div class="main-root">
+        <main class="main">
+            <div class="setting-container">
+                <typing-setting></typing-setting>
+                <record-setting></record-setting>
+            </div>
+        </main>
+    </div>
+
+    <script src="/components/globalHeader/globalHeader.js" type="module"></script>
+    <script src="/components/globalHeader/logo/logo.js" type="module"></script>
+
+    <script src="/setting/components/typingSetting.js" type="module"></script>
+    <script src="/setting/components/recordSetting.js" type="module"></script>
+</body>
+</html>

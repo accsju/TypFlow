@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja-JP">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TypeFlow 遊ぶ</title>
+    <meta name="author" content="typflow.dev">
+    <meta name="description" content="TypingGameができます。">
+
+    <!-- sns -->
+    <!-- og ommission -->
+    
+    <!-- common css -->
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <global-header></global-header>
+    <div class="main-root">
+        <main class="main">
+            <typing-board></typing-board>
+        </main>
+    </div>
+
+    <exit-game-modal></exit-game-modal>
+    <print-result-board></print-result-board>
+
+    <script src="/components/globalHeader/globalHeader.js" type="module"></script>
+    <script src="/components/globalHeader/logo/logo.js" type="module"></script>
+
+    <script src="/play/components/exitGameModal.js" type="module"></script>
+    <script src="/play/components/printResultBoard.js" type="module"></script>
+    <script src="/play/components/typingBoard.js" type="module"></script>
+    
+    <script src="/play/engine/typingManager.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 15px;
+}
+:root {
+    --primary-color: #2C3437;
+    --sub-color: #417E38;
+    --active-color: #FFFFFF;
+
+    --primary-background-color: #FFFFFF;
+    --primary-background-color2: #D9E1E4;
+    --sub-background-color:#417E38;
+
+    --fixed-color1: #ecf0f1;
+    --fixed-color2: #FFFFFF;
+}
+.main-root {
+    padding: 0 10px 30px 10px;
+}
+.main {
+    max-width: 800px;
+    min-height: 400px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid var(--primary-background-color2);
+    padding: 10px;
+    border-radius: 10px;
+}

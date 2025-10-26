@@ -1,0 +1,34 @@
+.main > div:nth-child(2) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.checkbox-list {
+    color: var(--primary-color);
+}
+#appearanceCategory {
+    font-size: 1.6rem;
+    color: var(--primary-color);
+}
+#explain {
+    font-size: .9rem;
+    color: var(--primary-color);
+    margin-top: 10px;
+}
+.category-name {
+    font-size: 1.3rem;
+    color: var(--fixed-color2);
+    margin-top: 20px;
+    padding: 5px 10px;
+    background: var(--sub-color);
+    border-radius: 5px;
+    text-align: center;
+}
+.checkbox-list {
+    padding: 10px 5px 5px 5px;
+}
+@media screen and (max-width: 650px) {   
+    .main > div:nth-child(2) {
+        grid-template-columns: 1fr;
+    }                    
+}
