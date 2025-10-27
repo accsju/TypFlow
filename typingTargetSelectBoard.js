@@ -151,4 +151,3 @@ class TypingTargetSelectBoard extends HTMLElement {
 
 customElements.define("typing-target-select-board", TypingTargetSelectBoard);
 
-localStorage.clear();
